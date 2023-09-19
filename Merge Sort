@@ -1,0 +1,8 @@
+16, 21, 11, 8, 12, 22]
+[16, 21, 11], [8, 12, 22] (Diziyi ikiye ayır)
+[16, 21], [11], [8, 12], [22] (Diziyi daha küçük parçalara ayır)
+[16], [21], [11], [8], [12], [22] (Tek elemanlı parçalar)
+[16, 21], [8, 11], [12, 22] (Birleştirme aşaması)
+[8, 11, 16, 21, 12, 22] (Son birleştirme aşaması)
+
+Merge Sort'un Big-O gösterimi: O(n log n)
